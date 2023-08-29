@@ -18,14 +18,14 @@
 <br>
 
 <h2>🛒 Carrinho de compras</h2>
-<p>O carrinho de compras permite armazenar os itens que o usuário se interessou ou pretende comprar. É possível adicionar, editar ou remover o produto do carrinho. O acúmulo de valor é somado de acordo com o desconto do produto, caso ele esteja na black friday ou não. Foi desenvolvido um sistema à partir disso, para que o cálculo seja feito com o valor de desconto do produto.</p>
+<p>O carrinho de compras permite armazenar os itens que o usuário se interessou ou pretende comprar. É possível adicionar, editar ou remover o produto do carrinho. O acúmulo de valor é somado de acordo com o desconto do produto, caso ele esteja na black friday ou não, e foi feito um cálculo para que o valor do produto seja descontado automaticamente pelo sistema. Os itens também são salvos pelo Local Storage do navegador, impedindo que as informações sejam perdidas caso o usuário recarregue a página.</p>
 
 ![Carrinho de compras](./src/assets/cart.gif)
 
 <br>
 
 <h2>🚩 Localização</h2>
-<p>A busca por CEP permite que o usuário informe o CEP que deseja consultar, retornando assim as informações: Nome da rua, cidade, bairro, estado e ddd. O sistema também já retorna para o usuário qual será o valor do frete, de acordo com o estado.</p>
+<p>A busca por CEP permite que o usuário informe o CEP que deseja consultar, retornando assim as informações: Nome da rua, cidade, bairro, estado e ddd. O sistema também já retorna para o usuário qual será o valor do frete, de acordo com o estado. As informações do CEP também ficam salvas em Local Storage, caso o usuário recarregue a página as informações não serão perdidas, e caso o CEP seja digitado errado, o erro não será salvo em Local Storage, apenas a informação válida do CEP.</p>
 
 ![Localização](./src/assets/locale.gif)
 
@@ -41,10 +41,10 @@
 
 <h2>Rodando o projeto na sua máquina</h2>
 
-<p>Para rodar o projeto na sua máquina, basta clicar no botão verde no começo do repositório "<> Code", baixar o arquivo ZIP e extrair para uma pasta. Em seguida, você pode baixar as dependências do projeto usando o comando "npm install" no seu terminal, já dentro do projeto.</p>
+<p>Para rodar o projeto na sua máquina, basta clicar no botão verde no começo do repositório "<> Code", baixar o arquivo ZIP e extrair para uma pasta. Em seguida, você pode baixar as dependências do projeto usando o comando "npm install" no seu terminal.</p>
 
 <h2>Conclusão</h2>
-<p>O Projeto Smart Store me proporcionou uma evolução incrível, trazendo experiência com a ferramenta ReactJs e ajudando a trabalhar minha lógica com TypeScript. Muitos medos e inseguranças foram enfrentados ao construir esse projeto, muitas coisas novas também foram aprendidas, principalmente programação orientada à objetos e manipulação de dados. Foi muito desafiador desenvolver este projeto e valeu a pena cada momento investido em sua construção.</p>
+<p>O Projeto Smart Store me proporcionou uma evolução incrível, trazendo experiência com as ferramentas NextJS, ReactJS e ajudando a trabalhar minha lógica e tipagem de dados com TypeScript. Muitos conceitos novos também foram aprendidas, principalmente programação orientada à objetos, manipulação de dados e rotas. Foi muito desafiador desenvolver este projeto sozinho e valeu a pena cada momento investido em sua construção.</p>
 <br>
 
 <h2>🛠️ Ferramentas Utilizadas</h2>
@@ -57,6 +57,6 @@
 - Controle de versão GIT
 - [CEP API](https://viacep.com.br/)
 
-💻 Página do projeto -  [Projeto Smart Store](https://smart-store-react-5zll440a2-lucas-cassimiro.vercel.app/)
+💻 Página do projeto -  [Projeto Smart Store](https://smartstore-next-react-ts-76yi.vercel.app/)
 
 🙋‍♂️ Perfil no LinkedIn - [Lucas Cassimiro](https://www.linkedin.com/in/lucasocassimiro/)
