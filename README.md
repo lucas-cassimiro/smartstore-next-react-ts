@@ -1,5 +1,5 @@
 <h1 align="center"><strong>Projeto Smart Store</strong></h1>
-<p>O projeto Smart Store foi criado e desenvolvido por Lucas Cassimiro. Este projeto é um E-Commerce feito com as ferramentas: Next.JS, React.JS, TypeScript, Styled-components, Context API e versionado com GIT. O projeto conta com um design moderno e intuitivo, visando uma ótima experiência do usuário. Fácil de mexer, o projeto conta com funcionalidades como: carrosséis de itens, filtrar de itens por preço, cor e armazenamento, carrinho de compras e busca por CEP e cálculo automático de frete.</p>
+<p>O projeto Smart Store foi criado e desenvolvido por Lucas Cassimiro. Este projeto é um E-Commerce feito com as ferramentas: Next.JS, React.JS, TypeScript, Styled-components, Context API e versionado com GIT. O projeto conta com um design moderno e intuitivo, visando uma ótima experiência do usuário. Fácil de mexer, o projeto conta com funcionalidades como: carrosséis de itens, filtrar de itens por preço, cor, armazenamento, ordenação, exibição e busca por nome, carrinho de compras e busca por CEP com cálculo automático de frete, além de salvar as informações da busca por CEP e os itens do carrinho em Local Storage.</p>
 <br>
 
 <h2>🌐 Visão Geral do Projeto</h2>
@@ -44,7 +44,7 @@
 <p>Para rodar o projeto na sua máquina, basta clicar no botão verde no começo do repositório "<> Code", baixar o arquivo ZIP e extrair para uma pasta. Em seguida, você pode baixar as dependências do projeto usando o comando "npm install" no seu terminal.</p>
 
 <h2>Conclusão</h2>
-<p>O Projeto Smart Store me proporcionou uma evolução incrível, trazendo experiência com as ferramentas NextJS, ReactJS e ajudando a trabalhar minha lógica e tipagem de dados com TypeScript. Muitos conceitos novos também foram aprendidas, principalmente programação orientada à objetos, manipulação de dados e rotas. Foi muito desafiador desenvolver este projeto sozinho e valeu a pena cada momento investido em sua construção.</p>
+<p>O Projeto Smart Store me proporcionou uma evolução incrível, trazendo experiência com as ferramentas Next.JS, React.JS e a trabalhar minha lógica e tipagem de dados com TypeScript. Muitos conceitos novos também foram aprendidos, como programação orientada à objetos, manipulação e tipagem de dados, rotas no Next.JS, mas principalmente SSR, SSG e CSR, para melhorar o desempenho, a performance e a SEO. Foi muito desafiador desenvolver este projeto sozinho e valeu a pena cada momento investido em seu desenvolvimento.</p>
 <br>
 
 <h2>🛠️ Ferramentas Utilizadas</h2>
@@ -57,6 +57,6 @@
 - Controle de versão GIT
 - [CEP API](https://viacep.com.br/)
 
-💻 Página do projeto -  [Projeto Smart Store](https://smartstore-next-react-ts-76yi.vercel.app/)
+💻 Página do projeto -  [Projeto Smart Store](https://smartstore-next-react-ts-76yi-eujjthbuw-lucas-cassimiro.vercel.app/)
 
 🙋‍♂️ Perfil no LinkedIn - [Lucas Cassimiro](https://www.linkedin.com/in/lucasocassimiro/)
