@@ -11,5 +11,5 @@ export interface PagesProductsData {
     storage?: number;
     color?: string;
     order?: string;
-    quantity?: number;
+    //quantity?: number;
 }
