@@ -8,7 +8,8 @@ import { BlackFriday, WhatsApp } from "../components/Banners";
 import { cards } from "../data/CardProductsData";
 import CardsCarousel from "../libraries/Slider/CardsCarousel/CardCarousel";
 
-export default function Home() {
+export default async function Home() {
+
     return (
         <>
             <CarouselImages />

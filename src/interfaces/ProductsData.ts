@@ -5,9 +5,9 @@ export interface PagesProductsData {
     name: string;
     price: number;
     img: StaticImageData;
-    blackFriday?: boolean;
+    black_friday?: boolean;
     discount?: number;
-    rating?: number;
+    average_score?: number;
     storage?: number;
     color?: string;
     order?: string;

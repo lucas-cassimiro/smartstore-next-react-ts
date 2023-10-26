@@ -18,21 +18,21 @@ export default function CardProducts({ products }: ProductProps) {
             <Image src={products.img} alt={products.name} />
             <div>
                 <div>
-                    {products.blackFriday && <p>-{products.discount}%</p>}
-                    {products.blackFriday && <p>Black Friday</p>}
+                    {products.black_friday && <p>-{products.discount}%</p>}
+                    {products.black_friday && <p>Black Friday</p>}
                 </div>
                 <h4>{products.name}</h4>
-                <HalfRating star={products.rating!} />
+                <HalfRating star={products.average_score!} />
 
-                {products.blackFriday && (
+                {products.black_friday && (
                     <p>{currencyFormat(products.price)}</p>
                 )}
 
-                {products.discount && (
+                {products.black_friday && (
                     <section>
                         <p>
                             {currencyFormat(
-                                (products.price * (100 - products.discount)) /
+                                (products.price * (100 - products.discount!)) /
                                     100
                             )}
                         </p>
@@ -41,7 +41,7 @@ export default function CardProducts({ products }: ProductProps) {
                     </section>
                 )}
 
-                {!products.blackFriday && (
+                {!products.black_friday && (
                     <section>
                         <p>{currencyFormat(products.price)}</p>
 
@@ -49,11 +49,11 @@ export default function CardProducts({ products }: ProductProps) {
                     </section>
                 )}
 
-                {!products.blackFriday && (
+                {!products.black_friday && (
                     <p>Ou 12x de {currencyFormat(products.price / 12)}</p>
                 )}
 
-                {products.blackFriday && (
+                {products.black_friday && (
                     <p>
                         Ou 12x de{" "}
                         {currencyFormat(

@@ -24,23 +24,23 @@ export default function RootLayout({
     const navLinks: NavLink[] = [
         {
             name: "iPhones",
-            href: "/iphones",
+            href: "/products/iphone",
         },
         {
             name: "Androids",
-            href: "/androids",
+            href: "/products/android",
         },
         {
             name: "Smartwatchs",
-            href: "/smartwatchs",
+            href: "/products/smartwatch",
         },
         {
             name: "Fones Bluetooth",
-            href: "/fones",
+            href: "/products/fone",
         },
         {
             name: "Black Friday",
-            href: "/blackfriday",
+            href: "/products/blackfriday",
         },
     ];
 
