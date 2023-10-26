@@ -33,7 +33,7 @@ export default function CartMobile() {
                             </div>
                             <ButtonRemoveFromCart item={item} />
                         </div>
-                        {item.blackFriday && (
+                        {item.black_friday && (
                             <h5>
                                 Subtotal
                                 <span>
@@ -46,7 +46,7 @@ export default function CartMobile() {
                                 </span>
                             </h5>
                         )}
-                        {!item.blackFriday && (
+                        {!item.black_friday && (
                             <h5>
                                 Subtotal
                                 <span>

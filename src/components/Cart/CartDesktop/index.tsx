@@ -46,14 +46,14 @@ export default function CartDesktop() {
                                 </div>
                             </td>
                             <td>
-                                {!item.blackFriday && (
+                                {!item.black_friday && (
                                     <h5>
                                         {currencyFormat(
                                             item.price * item.quantity
                                         )}
                                     </h5>
                                 )}
-                                {item.blackFriday && (
+                                {item.black_friday && (
                                     <h5>
                                         {currencyFormat(
                                             ((item.price *

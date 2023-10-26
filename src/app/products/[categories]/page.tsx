@@ -1,4 +1,4 @@
-import useProductFilter from "@/src/components/Filter/LogicFilter";
+import useProductFilter from "@/src/components/LogicFilter";
 import { useEffect, useState } from "react";
 import { Container } from "./styles";
 import Tooltip from "@/src/libraries/Tooltip";
